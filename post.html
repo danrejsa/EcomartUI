@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auto Mart</title>
+    <link href='./css/main.css' rel='stylesheet'>
+</head>
+<body>
+        <ul class='nav'>
+                <li class='nav-bar'><a id='home' href='index.html'>Carimu Auto Mart</a></li>                
+                <ul class='nav2'>
+                    <li class='nav-bar'><a id='login-link' href='login.html'>Login</a></li>
+                    <li class='nav-bar' ><a  id='register-link' href='register.html'>Register</a></li>
+                </ul>
+            </ul>
+        <h1 class='header-post'>Post a Car</h1>
+    
+    <div class='post-form'>
+        <form class='post-a-car' method='post' action=''>
+         <label class='labels'>Car Make<span id='asterisk'>*</span></label>  
+        <select  class='post-a-car-details' id='car-make'  type='' placeholder='' >
+                <option selected disabled>select</option>
+                <option value='A'>Honda</option>
+                <option value='B' >Toyota</option>
+                <option value='C' >Peugeot</option>
+                <option value='A'>Mercedes</option>
+                <option value='B' >Nissan</option>
+                <option value='C' >Lexus</option> </select>
+        <label class='labels'>Type of Car<span id='asterisk'>*</span></label>  
+        <div class='post-a-car-details' id='car-type'>                   
+                   <input name='A' type='radio'> Saloon car
+                   <input name='A' type='radio'> Truck
+                   <input name='A' type='radio'> SUV
+                   <input name='A' type='radio'> Open-Roof
+        </div> 
+        <label class='labels'>Price<span id='asterisk'>*</span></label>                  
+        <input class='post-a-car-details' id='car-details-A' name='' type='' placeholder="" >
+        <label class='labels'>Year<span id='asterisk'>*</span></label>  
+        <input  class='post-a-car-details' id='car-details-C' name='' type='' placeholder='' >
+       
+        <label class='labels'>Transmission<span id='asterisk'>*</span></label>  
+        <select  class='post-a-car-details' id='car-details-E' name='' type='' placeholder='' >
+            <option selected disabled>select</option>
+            <option value='A'>Automatic</option>
+            <option value='B' >Manual</option>           
+        </select>
+        <label class='labels'>Registered<span id='asterisk'>*</span></label>  
+        <div class='post-a-car-details' id='car-type'>                   
+                <input name='B'  type='radio'> Yes
+                <input name='B' type='radio'> No                               
+        </div>
+        <label class='labels'>License Plate<span id='asterisk'>*</span></label>  
+        <input  class='post-a-car-details' id='car-details-G' name='' type='' placeholder='' > 
+        <label class='labels'>Condition<span id='asterisk'>*</span></label>
+        <div class='post-a-car-details' id='car-type'>                   
+                <input name='C' type='radio'> New
+                <input name='C' type='radio'> Fairly Used
+                <input name='C' type='radio'> Used               
+        </div>
+        <label class='labels'>Description<span id='asterisk'>*</span></label>  
+        <input  class='post-a-car-details' id='car-details-D'> 
+               
+        <label class='labels'>Upload Car Image (Front, Rear, Back, Interior)<span id='asterisk'>*</span></label> 
+        <div class='car-images'>
+            <div class='car-image'> <input  class='post-a-car-details' id='file1' type="file"  accept="image/*" name="image"></div>
+            <div class='car-image'> <input  class='post-a-car-details' id='file2' type="file"  accept="image/*" name="image"></div>
+            <div class='car-image'> <input  class='post-a-car-details' id='file3' type="file"  accept="image/*" name="image"></div>
+            <div class='car-image'> <input  class='post-a-car-details' id='file4' type="file"  accept="image/*" name="image"></div>
+        </div>
+
+        <input id='post-button' type='submit' value='Upload'>
+    </form>
+    </div>
+    <footer class='footer1'>
+			<div id='powered'>
+				<p tabIndex ='0'>Powered by Carimu Auto Mart</p>
+				<p id='copyrights'>Copyright Carimu&copy; 2019. All rights reserved.</p>
+			</div>
+    </footer>
+</body>
+</html>

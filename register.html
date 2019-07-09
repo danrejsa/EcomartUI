@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Auto Mart</title>
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class='nav'>
+      <li class='nav-bar'><a id='home' href='index.html'>Carimu Auto Mart</a></li>
+      <li class='nav-bar'><a id='contact' href='contact.html'>Contact Us</a></li>
+      <li class='nav-bar' ><a id='about' href='about.html'>About Us</a></li>
+      <ul class='nav2'>
+          <li class='nav-bar'><a id='contact' href='login.html'>Login</a></li>
+          <li class='nav-bar' ><a class="active" id='about' href='register.html'>Register</a></li>
+      </ul>
+  </ul>
+    <h1 class='header-log' >Register</h1>
+    <form class="form" method="post">
+        <input id="name" name="email" type="email" placeholder="Email" required />
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Input Password"
+          required
+        />
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Repeat Password"
+          required
+        />
+        <div class="alreadyRegistered">
+          <span id='account'>Already registered? Click login</span>
+        </div>
+        <br />
+        <a href="login.html" id="loginR"
+          >Login</a
+        >
+        <button id="signUpR" name="submit" type="submit">Register</button>
+      </form>
+   
+  </body>
+</html>
